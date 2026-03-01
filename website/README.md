@@ -1,73 +1,56 @@
-# React + TypeScript + Vite
+# 🛍️ Fashion Store - E-commerce Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um website de uma loja de roupas desenvolvido com foco em aprimorar e consolidar meus conhecimentos em desenvolvimento Front-end moderno.
 
-Currently, two official plugins are available:
+A aplicação simula uma interface de e-commerce com layout responsivo, componentes reutilizáveis e animações para melhorar a experiência do usuário.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React**
+- **TypeScript**
+- **TailwindCSS**
+- **Shadcn/UI**
+- **Framer Motion**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🎯 Objetivo do Projeto
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Praticar arquitetura de componentes
+- Aplicar boas práticas com TypeScript
+- Trabalhar com estilização moderna usando TailwindCSS
+- Implementar animações fluidas com Framer Motion
+- Construir uma interface limpa, organizada e responsiva
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📱 Responsividade
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+O layout foi desenvolvido com abordagem responsiva, garantindo boa experiência tanto em dispositivos móveis quanto em telas maiores.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🧠 Aprendizados
+
+Durante o desenvolvimento deste projeto, pratiquei:
+
+- Organização de estrutura de pastas
+- Tipagem segura com TypeScript
+- Componentização reutilizável
+- Criação de interfaces modernas
+- Controle de estados no React
+
+---
+
+## 📌 Status
+
+🚧 Projeto em constante evolução.
+
+---
+
+## 👨‍💻 Autor
+
+Pedro Areas  
+Desenvolvedor Front-end em evolução 🚀
